@@ -21,7 +21,11 @@ Readers are welcome to explore, share, and reference the essays or frameworks.
 For collaboration or feedback, please use the Contact section.
 
 ## License
-All content © Vasudev Narayanan.  
+All content © [vasudev.narayanan@zohomail.com](mailto:vasudev.narayanan@zohomail.com).  
 Content may be referenced with attribution.  
 Commercial reuse requires explicit permission.
+
+## Styling
+The site uses a clean sans-serif font for readability:  
+`Segoe UI, Helvetica, Arial, sans-serif`
 
