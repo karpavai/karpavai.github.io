@@ -21,6 +21,6 @@ Readers are welcome to explore, share, and reference the essays or frameworks.
 For collaboration or feedback, please use the Contact section.
 
 ## License
-All content © [vasudev.narayanan@zohomail.com](mailto:vasudev.narayanan@zohomail.com).  
+All content © [vasudev.narayanan@aol.com](mailto:vasudev.narayanan@aol.com).  
 Content may be referenced with attribution.  
 Commercial reuse requires explicit permission.
