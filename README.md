@@ -21,6 +21,17 @@ Readers are welcome to explore, share, and reference the essays or frameworks.
 For collaboration or feedback, please use the Contact section.
 
 ## License
+
+### a. Code Base
+The code, configuration files, and workflows in this repository are licensed under the  
+GNU General Public License v3.0 (GPLv3) as published by the Free Software Foundation.  
+You may redistribute and/or modify under the terms of the GPL.  
+Full text: https://www.gnu.org/licenses/gpl-3.0.html
+
+### b. Articles and Documentation
+The written content (articles, blog posts, and documentation in `docs/`) is licensed under the  
+GNU Free Documentation License, Version 1.3 (FDL) as published by the Free Software Foundation.  
+You are free to copy, distribute, and modify with attribution, under the terms of the FDL.  
+Full text: https://www.gnu.org/licenses/fdl-1.3.html
+
 All content © [vasudev.narayanan@aol.com](mailto:vasudev.narayanan@aol.com).  
-Content may be referenced with attribution.  
-Commercial reuse requires explicit permission.
