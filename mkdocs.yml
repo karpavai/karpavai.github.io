@@ -12,5 +12,4 @@ theme:
 
 plugins:
   - search
-  - vim-md-tags
 
