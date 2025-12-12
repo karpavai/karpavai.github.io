@@ -1,0 +1,16 @@
+site_name: karpav.ai
+
+nav:
+  - Home: index.md
+  - Portfolio: portfolio.md
+  - Papers: papers.md
+  - Spirituality: spirituality.md
+  - About: about.md 
+
+theme:
+  name: readthedocs 
+
+plugins:
+  - search
+  - vim-md-tags
+
