@@ -23,7 +23,6 @@ jobs:
       - name: Install dependencies
         run: |
           pip install mkdocs
-          pip install mkdocs-vim-md-tags
 
       - name: Build and deploy
         run: |
