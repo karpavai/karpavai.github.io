@@ -1,4 +1,6 @@
 site_name: karpav.ai
+site_description: Training and Development tutorials for Modern Software Engineers
+site_author: Vasudev Narayanan
 
 nav:
   - Home: index.md

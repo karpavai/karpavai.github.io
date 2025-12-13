@@ -1,17 +1,45 @@
-# Welcome to MkDocs
+# Welcome to karpav.ai
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+An elastic approach to **LEARN → ACQUIRE → IMPLEMENT → UNLEARN → ITERATE**  
+and MASTER technical and management work skills.
 
-## Commands
+---
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Portfolio
 
-## Project layout
+### Process
+Acquire the right knowledge to steer your projects.  
+![Good Teamwork](assets/undraw_Good_team_re_hrvm.png)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+### Technical
+Gain understanding of good practices and reproducible stacks.
+
+### Domain
+Scenario analysis, stewardship, and institutional optics.
+
+---
+
+## General Topics
+Musings on books, certifications, and career paths.
+
+---
+
+## Spirituality
+Reflections on stewardship, dharma, and cultural resonance.
+
+---
+
+## Papers & Presentations
+Authentic contributions, including reframed ideas and rejected papers.
+
+---
+
+## Learning Objectives
+Learning objectives created ❤️ by INdian for INdians.  
+**Karpav.ai** is for *Sarvajanik Shiksha*.
+
+---
+
+## License
+This work is licensed under [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0).
+
