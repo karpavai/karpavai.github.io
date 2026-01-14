@@ -1,45 +1,27 @@
-# Welcome to karpav.ai
+# Welcome to Karpav.ai
 
-An elastic approach to **LEARN → ACQUIRE → IMPLEMENT → UNLEARN → ITERATE**  
-and MASTER technical and management work skills.
-
----
-
-## Portfolio
-
-### Process
-Acquire the right knowledge to steer your projects.  
-![Good Teamwork](assets/undraw_Good_team_re_hrvm.png)
-
-### Technical
-Gain understanding of good practices and reproducible stacks.
-
-### Domain
-Scenario analysis, stewardship, and institutional optics.
+> A knowledge hub for training, stewardship, and authentic contributions.
 
 ---
 
-## General Topics
-Musings on books, certifications, and career paths.
+## Explore Our Sections
+
+- 🚀 **Process** → Learn frameworks to steer projects with clarity.  
+- ⚙️ **Technical** → Discover reproducible stacks and open‑source practices.  
+- 🌍 **Domain** → Dive into scenario analysis and institutional optics.  
+- 📚 **General Topics** → Reflections on books, certifications, and career paths.  
+- 🕉️ **Spirituality** → Stewardship, dharma, and cultural resonance.  
+- 📄 **Papers & Presentations** → Authentic contributions, reframed ideas, and rejected papers.  
 
 ---
 
-## Spirituality
-Reflections on stewardship, dharma, and cultural resonance.
+## Featured Work
+- [Unreachable Citizens](papers/Unreachable_Citizens/01_abstract_intro.md)  
 
 ---
-
-## Papers & Presentations
-Authentic contributions, including reframed ideas and rejected papers.
-
----
-
-## Learning Objectives
-Learning objectives created ❤️ by INdian for INdians.  
-**Karpav.ai** is for *Sarvajanik Shiksha*.
-
----
+Learning objectives created with ❤️  by INdian for INdians.  
+From learning to learner to learned — **Karpav.ai**  makes the journey complete.
 
 ## License
 This work is licensed under [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0).
-
+---

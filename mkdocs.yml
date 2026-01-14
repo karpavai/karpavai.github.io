@@ -1,17 +1,56 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: karpav.ai
+site_url: https://karpavai.github.io/
 site_description: Training and Development tutorials for Modern Software Engineers
 site_author: Vasudev Narayanan
 
 nav:
   - Home: index.md
-  - Portfolio: portfolio.md
-  - Papers: papers.md
+  - About: about.md
+  - Papers:
+      - Unreachable Citizens:
+          - Abstract & Introduction: papers/Unreachable_Citizens/01_abstract_intro.md
+          - Literature Gap & Typology: papers/Unreachable_Citizens/02_literature_typology.md
+          - Zone Categories: papers/Unreachable_Citizens/03_zone_categories.md
+          - Lifecycle Matrix: papers/Unreachable_Citizens/04_lifecycle_matrix.md
+          - Budgeting Logic: papers/Unreachable_Citizens/05_budgeting_logic.md
+          - FMEA & Methodology: papers/Unreachable_Citizens/06_fmea_methodology.md
+          - Institutional Feedback: papers/Unreachable_Citizens/07_institutional_feedback.md
+          - Case Vignettes & Discussion: papers/Unreachable_Citizens/08_case_vignettes_discussion.md
+          - Policy Recommendations: papers/Unreachable_Citizens/09_policy_recommendations.md
+          - Redesign & Conclusion: papers/Unreachable_Citizens/10_redesign_conclusion.md
+  - Blog:
+      - Blog Index: blog/index.md
+      - Technical: posts/technical/technical.md
+      - Process: posts/process/process.md
+      - Domain: posts/domain/domain.md
   - Spirituality: spirituality.md
-  - About: about.md 
 
 theme:
-  name: readthedocs 
+  name: material
+  font:
+   text: Roboto
+   code: Roboto Mono
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+    - search.suggest
+    - search.highlight
 
 plugins:
-  - search
+  - blog
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
