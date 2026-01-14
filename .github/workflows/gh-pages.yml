@@ -22,7 +22,9 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mkdocs
+          pip install mkdocs-material
+          # Add any plugins you use, for example:
+          # pip install mkdocs-blog-plugin mkdocs-awesome-pages-plugin
 
       - name: Build and deploy
         run: |
