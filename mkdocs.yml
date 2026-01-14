@@ -21,9 +21,9 @@ nav:
           - Redesign & Conclusion: papers/Unreachable_Citizens/10_redesign_conclusion.md
   - TDOps Blog:
       - Blog Index: blog/index.md
-      - Technical: posts/technical/technical.md
-      - Process: posts/process/process.md
-      - Domain: posts/domain/domain.md
+      - Technical: blog/posts/technical/technical.md
+      - Process: blog/posts/process/process.md
+      - Domain: blog/posts/domain/domain.md
   - Spirituality: spirituality.md
 
 theme:
