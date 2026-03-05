@@ -1,8 +1,55 @@
-# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
-site_name: karpav.ai
-site_url: https://karpavai.github.io/
-site_description: Training and Development tutorials for Modern Software Engineers
-site_author: Vasudev Narayanan
+site_name: "Karpav.ai"
+site_description: "A knowledge hub for training, stewardship, and authentic contributions."
+site_author: "Vasudev Narayanan"
+site_url: "https://karpavai.github.io/"
+
+theme:
+  name: material
+  language: en
+  palette:
+    scheme: default
+    primary: blue
+    accent: grey
+  font:
+    text: Verdana
+    code: Courier New
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+    - content.tabs.link
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - attr_list
+  - def_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search
+  - blog:
+      blog_dir: blog
+      post_dir: blog/posts
+      post_url_format: "{slug}"
+      categories: true
+      authors: true
+  - tags
 
 nav:
   - Home: index.md
@@ -19,40 +66,20 @@ nav:
           - Case Vignettes & Discussion: papers/Unreachable_Citizens/08_case_vignettes_discussion.md
           - Policy Recommendations: papers/Unreachable_Citizens/09_policy_recommendations.md
           - Redesign & Conclusion: papers/Unreachable_Citizens/10_redesign_conclusion.md
-  - TDOps Blog:
-      - Blog Index: blog/index.md
+  - Blog:
+      - Index: blog/index.md
       - Technical: blog/posts/technical/technical.md
-      - Process: blog/posts/process/process.md
+      - Service Design:
+          - SOPs:
+              - Overview: blog/posts/process/sop/index.md
+              - Tutorial: blog/posts/process/sop/tutorial-creating-sops.md
+              - How-to: 
+                  - Reviewing & Updating SOPs: blog/posts/process/sop/howto-review-update-sops.md
+                  - Auditing SOPs: blog/posts/process/sop/auditing-sops.md
+              - Reference: 
+                  - Economics & Budgeting: blog/posts/process/sop/reference-budgeting.md
+              - Explanation: 
+                  - SOP Maturity Index: blog/posts/process/sop/explanation-maturity-index.md
       - Domain: blog/posts/domain/domain.md
   - Spirituality: spirituality.md
 
-theme:
-  name: material
-  font:
-   text: Roboto
-   code: Roboto Mono
-  palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-    - scheme: slate
-      primary: indigo
-      accent: indigo
-
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - content.code.copy
-    - search.suggest
-    - search.highlight
-
-plugins:
-  - blog
-
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-
-extra:
-  generator: false
