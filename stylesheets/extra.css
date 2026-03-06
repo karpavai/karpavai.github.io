@@ -1,0 +1,76 @@
+/* Base body text: clear sans-serif, high readability */
+body, p, li {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #0b0c0c; /* GOV.UK dark grey text */
+}
+
+/* Headings: strong hierarchy, consistent spacing */
+h1, h2, h3, h4 {
+  font-family: Georgia, serif;
+  font-weight: 700;
+  color: #0b0c0c;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Navigation bar: GOV.UK blue background, white text */
+.md-header {
+  background-color: #1d70b8; /* GOV.UK blue */
+  color: #ffffff;
+}
+.md-header .md-header__title,
+.md-header .md-header__button,
+.md-header .md-tabs__link {
+  color: #ffffff !important;
+}
+.md-header .md-tabs__link:hover,
+.md-header .md-tabs__link--active {
+  color: #ffdd00 !important; /* GOV.UK yellow highlight */
+}
+
+/* Links: GOV.UK blue, underline on hover */
+a {
+  color: #1d70b8;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Lists: clear spacing, no clutter */
+ul {
+  list-style-type: disc;
+  padding-left: 1.2em;
+}
+ul li {
+  margin-bottom: 0.5em;
+}
+
+/* Blockquotes: GOV.UK style emphasis */
+blockquote {
+  font-style: normal;
+  color: #0b0c0c;
+  border-left: 4px solid #1d70b8;
+  padding-left: 1em;
+  margin-left: 0;
+}
+
+/* Buttons and call-to-actions */
+.md-button {
+  background-color: #1d70b8;
+  color: #ffffff;
+  border-radius: 0;
+  padding: 0.6em 1.2em;
+}
+.md-button:hover {
+  background-color: #003078; /* darker GOV.UK blue */
+}
+
+/* Accessibility: focus states */
+:focus {
+  outline: 3px solid #ffdd00; /* GOV.UK yellow focus ring */
+  outline-offset: 2px;
+}
+
