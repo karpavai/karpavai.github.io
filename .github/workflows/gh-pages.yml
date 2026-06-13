@@ -11,14 +11,17 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4   # upgraded from v3
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5   # upgraded from v4
         with:
-          python-version: '3.x'
+          python-version: '3.12'        # pin a stable version
 
       - name: Install dependencies
         run: |
@@ -29,4 +32,3 @@ jobs:
       - name: Build and deploy
         run: |
           mkdocs gh-deploy --force
-
