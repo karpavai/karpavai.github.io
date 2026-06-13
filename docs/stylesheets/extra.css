@@ -1,76 +1,127 @@
-/* Base body text: clear sans-serif, high readability */
+/* Base body text: modern system sans-serif */
 body, p, li {
-  font-family: Verdana, Arial, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  color: #0b0c0c; /* GOV.UK dark grey text */
+  color: #2E2E2E; /* Charcoal for readability */
 }
 
-/* Headings: strong hierarchy, consistent spacing */
+/* Headings: elegant serif */
 h1, h2, h3, h4 {
-  font-family: Georgia, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 700;
-  color: #0b0c0c;
+  color: #2E2E2E;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
 }
 
-/* Navigation bar: GOV.UK blue background, white text */
+/* Code blocks: monospace */
+code, pre {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Navigation bar: Aqua background, white text */
 .md-header {
-  background-color: #1d70b8; /* GOV.UK blue */
+  background-color: #00B5AD; /* Aqua */
   color: #ffffff;
 }
 .md-header .md-header__title,
 .md-header .md-header__button,
 .md-header .md-tabs__link {
   color: #ffffff !important;
+  font-weight: 500;
 }
-.md-header .md-tabs__link:hover,
 .md-header .md-tabs__link--active {
-  color: #ffdd00 !important; /* GOV.UK yellow highlight */
+  color: #FFB6C1 !important; /* Soft Pink highlight */
+  font-weight: 700;
+  border-bottom: 2px solid #FFB6C1;
+}
+.md-header .md-tabs__link:hover {
+  color: #C0C0C0 !important; /* Silver accent */
 }
 
-/* Links: GOV.UK blue, underline on hover */
+/* Links: Aqua, underline on hover */
 a {
-  color: #1d70b8;
+  color: #00B5AD;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
 }
 
-/* Lists: clear spacing, no clutter */
-ul {
-  list-style-type: disc;
-  padding-left: 1.2em;
-}
-ul li {
-  margin-bottom: 0.5em;
-}
-
-/* Blockquotes: GOV.UK style emphasis */
-blockquote {
-  font-style: normal;
-  color: #0b0c0c;
-  border-left: 4px solid #1d70b8;
-  padding-left: 1em;
-  margin-left: 0;
-}
-
-/* Buttons and call-to-actions */
+/* Buttons: Aqua with silver hover */
 .md-button {
-  background-color: #1d70b8;
+  background-color: #00B5AD;
   color: #ffffff;
-  border-radius: 0;
+  border-radius: 6px;
   padding: 0.6em 1.2em;
 }
 .md-button:hover {
-  background-color: #003078; /* darker GOV.UK blue */
+  background-color: #C0C0C0; /* Silver */
 }
 
-/* Accessibility: focus states */
-:focus {
-  outline: 3px solid #ffdd00; /* GOV.UK yellow focus ring */
-  outline-offset: 2px;
+/* Card grid layout */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+.card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #00B5AD; /* Aqua primary */
+  margin-bottom: 0.8rem;
+}
+
+.card p {
+  color: #2E2E2E; /* Charcoal text */
+  margin-bottom: 1rem;
+}
+
+.card-link {
+  display: inline-block;
+  color: #00B5AD; /* Aqua */
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s ease;
+}
+.card-link:hover {
+  border-color: #FFB6C1; /* Soft pink accent */
+  text-decoration: none;
+}
+
+.grid-two {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.grid-two h3 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1d70b8; /* GOV.UK blue */
+}
+
+.grid-two p, .grid-two ul {
+  color: #2E2E2E; /* GOV.UK charcoal */
+  line-height: 1.5;
 }
 

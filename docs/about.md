@@ -1,25 +1,39 @@
 ---
-title: About Me |
-summary: About my Professional accomplishments
+title: About Me
+summary: Professional journey in data governance, compliance, and stewardship
 authors:
-        - Vasudev Narayanan
+  - Vasudev Narayanan
 date: 2025-12-18
 ---
-**Vasudev Narayanan**  
-Nonprofit | Data Governance | Cost Recovery | Fraud Analytics | Project Management Specialist 
+
+# About Vasudev Narayanan
+
+**Data Governance | Compliance | Project Stewardship | Fraud Analytics**
+
 Email: vasudev.narayanan@aol.com
 
 ---
 
-## Professional Journey 
+## Professional Journey
+Since 2013, Vasudev Narayanan has worked at the intersection of **data governance and compliance**, helping nonprofits and program offices strengthen accountability and donor confidence. His focus has been on reproducible frameworks, **Standard Operating Procedures (SOPs)**, and sponsor‑ready documentation that align with ISO standards and governance requirements.
 
-My professional journey since 2013 has focused on providing pre‑sales support for CSR implementation and fundraising, reviewing cost recovery methods, and implementing data governance strategies within Project Portfolio and Program Management Offices (PPPMO). I specialize in building reproducible frameworks, reviewing policies, and creating Standard Operating Procedures (SOPs) that improve compliance, strengthen governance, and deliver sponsor‑ready outcomes.
-
-Prior to transitioning from the IT domain to the nonprofit sector, I managed transition and transformation projects, led complex programs, and applied techno‑functional solutions to a diverse global clientele. This blend of technical expertise and governance leadership enables me to bridge institutional rigor with community‑focused stewardship.
+Earlier, in the IT services sector, he managed **transition and transformation projects**, ERP programs, and BI/DWH solutions for global clients. This blend of technical depth and governance stewardship enables him to translate institutional rigor into community‑focused practices.
 
 ---
 
-## Career Learnings 
+## Governance Lens
+My work in **data governance and compliance** is guided by four responsibilities:
+
+- **Governance oversight** → ensuring policies and SOPs reflect accountability standards and reproducibility.  
+- **Risk and compliance** → applying audit cycles and visibility frameworks to prevent crises and strengthen trust.  
+- **Stakeholder accountability** → translating donor reporting and sponsor optics into transparent governance practices.  
+- **Strategic alignment** → linking CSR and SDG initiatives with institutional priorities for sustainable impact.  
+
+These responsibilities frame my approach to stewardship, while program and project management remain the implicit foundation of my career.
+
+---
+
+## Career Highlights
 
 | **Pentapolis Foundation** | **ATOS & Wipro Technologies** |
 |----------------------------|-------------------------------|
@@ -27,25 +41,27 @@ Prior to transitioning from the IT domain to the nonprofit sector, I managed tra
 
 ---
 
-## 🎓 Education & Certifications
-  Master of Business Administration | Bachelor of Commerce | Diploma in Information Systems Management (Honors)
-  Certifications: PMP (PMI – previously certified), Microsoft Pre‑Sales Technical Specialist (BI)  
+## Education & Certifications
+- MBA | B.Com | Diploma in Information Systems Management (Honors)  
+- PMP (PMI – previously certified)  
+- Microsoft Pre‑Sales Technical Specialist (BI)  
 
 ---
 
-## 🧩 Skills Snapshot
-- **Management**: PMO setup, project governance, stakeholder engagement  
+## Skills Snapshot
+- **Governance & Compliance**: SOP frameworks, audit cycles, donor reporting  
 - **Technical**: BI/DWH, SQL, Power BI, Tableau, SAP BW  
 - **Commercial**: RFP management, presales analysis, fundraising optimization  
-- **Security & Compliance**: GDPR, PCIDSS, CSR reporting, audit frameworks  
-- **Accounting & Operations**: Cash flow stabilization, process improvement, visibility audits  
+- **Operations**: Cash flow stabilization, visibility audits  
 
 ---
 
-## ✨ Values & Interests
-I value clarity, authenticity, and reproducibility. My interests include sustainable sourcing frameworks, merchant mapping for purity and provenance, and integrating stewardship into community practices.  
+## Values & Interests
+Clarity, authenticity, and reproducibility guide my work.  
+Interests include sustainable sourcing frameworks, merchant mapping for purity and provenance, and embedding stewardship into community practices.
 
 ---
 
-## 📬 Connect
-- Email: **vasudev.narayanan@aol.com**  
+## Connect
+- Email: **vasudev.narayanan@aol.com**
+

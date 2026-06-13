@@ -54,32 +54,7 @@ plugins:
 nav:
   - Home: index.md
   - About: about.md
-  - Papers:
-      - Unreachable Citizens:
-          - Abstract & Introduction: papers/Unreachable_Citizens/01_abstract_intro.md
-          - Literature Gap & Typology: papers/Unreachable_Citizens/02_literature_typology.md
-          - Zone Categories: papers/Unreachable_Citizens/03_zone_categories.md
-          - Lifecycle Matrix: papers/Unreachable_Citizens/04_lifecycle_matrix.md
-          - Budgeting Logic: papers/Unreachable_Citizens/05_budgeting_logic.md
-          - FMEA & Methodology: papers/Unreachable_Citizens/06_fmea_methodology.md
-          - Institutional Feedback: papers/Unreachable_Citizens/07_institutional_feedback.md
-          - Case Vignettes & Discussion: papers/Unreachable_Citizens/08_case_vignettes_discussion.md
-          - Policy Recommendations: papers/Unreachable_Citizens/09_policy_recommendations.md
-          - Redesign & Conclusion: papers/Unreachable_Citizens/10_redesign_conclusion.md
   - Blog:
-      - Index: blog/index.md
-      - Technical: blog/posts/technical/technical.md
-      - Service Design:
-          - SOPs:
-              - Overview: blog/posts/process/sop/index.md
-              - Tutorial: blog/posts/process/sop/tutorial-creating-sops.md
-              - How-to: 
-                  - Reviewing & Updating SOPs: blog/posts/process/sop/howto-review-update-sops.md
-                  - Auditing SOPs: blog/posts/process/sop/auditing-sops.md
-              - Reference: 
-                  - Economics & Budgeting: blog/posts/process/sop/reference-budgeting.md
-              - Explanation: 
-                  - SOP Maturity Index: blog/posts/process/sop/explanation-maturity-index.md
-      - Domain: blog/posts/domain/domain.md
-  - Spirituality: spirituality.md
-
+      - Process | SOP Handbook: blog/process_sop.md
+      - Paper | Unreachable Citizens:  blog/unreachable_citizens.md
+  - 404: 404.md
