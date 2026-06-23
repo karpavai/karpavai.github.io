@@ -1,31 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-         <loc>https://karpavai.github.io/</loc>
-         <lastmod>2026-06-13</lastmod>
-    </url>
-    <url>
-         <loc>https://karpavai.github.io/404/</loc>
-         <lastmod>2026-06-13</lastmod>
-    </url>
-    <url>
-         <loc>https://karpavai.github.io/about/</loc>
-         <lastmod>2026-06-13</lastmod>
-    </url>
-    <url>
-         <loc>https://karpavai.github.io/metrics/</loc>
-         <lastmod>2026-06-13</lastmod>
-    </url>
-    <url>
-         <loc>https://karpavai.github.io/blog/</loc>
-         <lastmod>2026-06-13</lastmod>
-    </url>
-    <url>
-         <loc>https://karpavai.github.io/blog/process_sop/</loc>
-         <lastmod>2026-06-13</lastmod>
-    </url>
-    <url>
-         <loc>https://karpavai.github.io/blog/unreachable_citizens/</loc>
-         <lastmod>2026-06-13</lastmod>
-    </url>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://karpavai.github.io/blog/sops-handbook/</loc>
+<lastmod>2026-06-12T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://karpavai.github.io/blog/unreachable-citizens/</loc>
+<lastmod>2026-06-13T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://karpavai.github.io/blog/donor-reporting-sop/</loc>
+<lastmod>2026-06-16T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://karpavai.github.io/about.html</loc>
+</url>
+<url>
+<loc>https://karpavai.github.io/blog/</loc>
+</url>
+<url>
+<loc>https://karpavai.github.io/</loc>
+</url>
 </urlset>
