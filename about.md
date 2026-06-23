@@ -1,8 +1,8 @@
 ---
+layout: default
 title: About Me
 summary: Professional journey in data governance, compliance, and stewardship
-authors:
-  - Vasudev Narayanan
+author: Vasudev Narayanan
 date: 2025-12-18
 ---
 
@@ -24,12 +24,10 @@ Earlier, in the IT services sector, he managed **transition and transformation p
 ## Governance Lens
 My work in **data governance and compliance** is guided by four responsibilities:
 
-- **Governance oversight** → ensuring policies and SOPs reflect accountability standards and reproducibility.  
-- **Risk and compliance** → applying audit cycles and visibility frameworks to prevent crises and strengthen trust.  
-- **Stakeholder accountability** → translating donor reporting and sponsor optics into transparent governance practices.  
-- **Strategic alignment** → linking CSR and SDG initiatives with institutional priorities for sustainable impact.  
-
-These responsibilities frame my approach to stewardship, while program and project management remain the implicit foundation of my career.
+- **Governance oversight** → ensuring policies and SOPs reflect accountability standards and reproducibility.
+- **Risk and compliance** → applying audit cycles and visibility frameworks to prevent crises and strengthen trust.
+- **Stakeholder accountability** → translating donor reporting and sponsor optics into transparent governance practices.
+- **Strategic alignment** → linking CSR and SDG initiatives with institutional priorities for sustainable impact.
 
 ---
 
@@ -42,17 +40,17 @@ These responsibilities frame my approach to stewardship, while program and proje
 ---
 
 ## Education & Certifications
-- MBA | B.Com | Diploma in Information Systems Management (Honors)  
-- PMP (PMI – previously certified)  
-- Microsoft Pre‑Sales Technical Specialist (BI)  
+- MBA | B.Com | Diploma in Information Systems Management (Honors)
+- PMP (PMI – previously certified)
+- Microsoft Pre‑Sales Technical Specialist (BI)
 
 ---
 
 ## Skills Snapshot
-- **Governance & Compliance**: SOP frameworks, audit cycles, donor reporting  
-- **Technical**: BI/DWH, SQL, Power BI, Tableau, SAP BW  
-- **Commercial**: RFP management, presales analysis, fundraising optimization  
-- **Operations**: Cash flow stabilization, visibility audits  
+- **Governance & Compliance**: SOP frameworks, audit cycles, donor reporting
+- **Technical**: BI/DWH, SQL, Power BI, Tableau, SAP BW
+- **Commercial**: RFP management, presales analysis, fundraising optimization
+- **Operations**: Cash flow stabilization, visibility audits
 
 ---
 

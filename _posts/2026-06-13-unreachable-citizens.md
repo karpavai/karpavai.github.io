@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Unreachable Citizens, Invisible Budgets"
 description: "A governance study diagnosing technology’s limits in civic engagement and public finance in India. Explores fragile zones, lifecycle matrix, budgeting failures, FMEA methodology, institutional feedback, case vignettes, and visibility-first policy redesign."
 keywords:
@@ -16,6 +17,10 @@ keywords:
   - visibility-first budgeting
 date: 2026-06-13
 author: "Vasudev Narayanan"
+categories:
+  - Blog
+  - Paper
+permalink: /blog/unreachable-citizens/
 ---
 
 # Unreachable Citizens, Invisible Budgets

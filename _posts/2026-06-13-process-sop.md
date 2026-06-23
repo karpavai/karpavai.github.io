@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "SOPs Handbook – Governance & Service Design"
 description: "Comprehensive guide to Standard Operating Procedures (SOPs) for nonprofits and IT service teams. Covers creating, reviewing, auditing, budgeting, and maturity index frameworks aligned with ISO standards, donor governance, and accountability."
 keywords:
@@ -18,6 +19,7 @@ author: "Vasudev Narayanan"
 categories:
   - Blog
   - Process 
+permalink: /blog/sops-handbook/
 ---
 
 # SOPs Handbook
@@ -126,7 +128,7 @@ The SOP Maturity Index describes the stages of adoption and optimisation of Stan
 It helps organisations assess their current state, identify gaps, and plan improvements.  
 This framework is particularly useful for nonprofits and IT service teams seeking donor confidence, compliance, and operational clarity.
 
-![SOP Maturity Ladder](sop-maturity-ladder.png)
+<img src="/assets/sop-maturity-ladder.png" alt="SOP Maturity Ladder" style="max-width:300px; height:auto;" />
 
 | Level | Description | Key Risks / Benefits |
 |-------|-------------|----------------------|

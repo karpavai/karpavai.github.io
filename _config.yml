@@ -1,0 +1,14 @@
+title: Karpav.ai
+description: A knowledge hub for training, stewardship, and authentic contributions.
+url: "https://karpavai.github.io"
+author: Vasudev Narayanan
+
+theme: minima
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+markdown: kramdown
+

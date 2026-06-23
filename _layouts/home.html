@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ site.title }}</title>
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/extra.css' | relative_url }}">
+  </head>
+  <body>
+    {% include nav.html %}
+    <main>
+      <section class="intro">
+        <blockquote>
+          A knowledge hub for training, stewardship, and authentic contributions.
+        </blockquote>
+
+<div class="grid-two">
+  <div class="card">
+    <div class="card-title">Process</div>
+    {% assign process_posts = site.posts | where: "categories", "Process" %}
+    {% assign process_by_year = process_posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+    {% for year in process_by_year %}
+      <h4>{{ year.name }}</h4>
+      <ul>
+        {% for post in year.items %}
+          <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> — {{ post.date | date: "%B %d" }}</li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  </div>
+
+  <div class="card">
+    <div class="card-title">Paper</div>
+    {% assign paper_posts = site.posts | where: "categories", "Paper" %}
+    {% assign paper_by_year = paper_posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+    {% for year in paper_by_year %}
+      <h4>{{ year.name }}</h4>
+      <ul>
+        {% for post in year.items %}
+          <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> — {{ post.date | date: "%B %d" }}</li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  </div>
+</div>
+
+
+        <p>
+          Learning objectives created with ❤️ by INdian for INdians.<br>
+          From learning to learner to learned — <strong>Karpav.ai</strong> makes the journey complete.
+        </p>
+
+        <hr>
+        <h2>License</h2>
+        <p>This work is licensed under
+          <a href="https://www.gnu.org/licenses/gpl-3.0">GNU GPL v3</a>.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; {{ site.author }}</p>
+    </footer>
+  </body>
+</html>
+
